@@ -1,0 +1,64 @@
+<DOCTYPE! html> 
+        <html> 
+                <head>
+                        <title>FA_6</title>
+                        <style> 
+
+                        a:link { 
+				background-color: #160f4a; 
+				color: #ffffff; 
+			} 
+                        
+			a:visited {
+				background-color: #3e1261; 
+				color: #ffffff;
+			} 
+                        
+			a:hover {
+				background-color: #9c9c9c; 
+				color: #ffd700;
+			} 
+                        
+			a:active {
+				background-color: #ffd700;
+				color: #9c9c9c;
+			} 
+
+                        a { 
+                        	text-decoration: none; 
+                        	padding: 10px;
+                        } 
+
+                        div { 
+                                width: 150px; 
+                                height: 100px; 
+                                padding: 20px;
+                                text-align: center; 
+                                border: solid black 3px;
+                        } 
+
+                        #div1:target { 
+				background-color: #160f4a;
+				color: #baa320
+			} 
+                        
+			#div2:target {
+				background-color: #b2d4c3;
+				color: #11610a; 
+				border: dotted green 10px;
+			}  
+
+                        </style> 
+                </head> 
+
+                <body> 
+                        <a href="#div1">Link 1</a>                        
+                        <a href="#div2">Link 2</a>
+                        <br>
+                        <br> 
+                        <div id="div1"> Div 1 here </div>
+                        <br>         
+                        <div id="div2"> Div 2 here </div> 
+
+                </body>  
+        </html>
